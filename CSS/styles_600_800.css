@@ -1,0 +1,275 @@
+span {
+    display: inline-block;
+}
+.menuSpan {
+    width: 100%;
+    display: inline-block;
+}
+a:hover {
+    color: #FF00FF;
+    text-decoration: underline;
+}
+.pipeBreak {
+    color: white;
+    display: none;
+}
+.headerTitle {
+    width: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#headerMenuDiv {
+    max-width: 130px;
+    position: static;
+    margin-right: 10px;
+    float: right;
+}
+.headerMenu {
+    width: 50%;
+    min-width: 100px;
+    float: right;
+    text-align: center;
+    display: none;
+}
+.headerMenuOpened {
+    
+    max-width: 100px;
+    text-align: right;
+    display: block;
+    float: left;
+}
+.hamburger {
+    background: url('../images/hamburger.png') no-repeat;
+    display: block;
+    min-width: 50px;
+    width: 10%;
+    min-height: 25px;
+    margin-right: 5px;
+    margin-top: 10px;
+    background-position: -4px;
+}
+
+
+.hamburgerClicked {
+    background: url(../images/hamburger.png) no-repeat;
+    display: block;
+    min-width: 50px;
+    float: right;
+
+    
+    min-height: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    background-position: -4px;
+}
+.secondDivTitle {
+    text-align: center;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+.strengths {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 800px;
+    background-color: #F5F2F2;
+}
+.insideSecondDiv {
+    float: left;
+    width: 100%;
+    min-width: 150px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}
+#design {
+    width: 70%;
+    float: left;
+    margin-right: 30px;
+    min-height: 150px;
+}
+#strategy {
+    width: 70%;
+    float: left;
+    margin-right: 30px;
+    background-position-x: -23px;
+}
+#marketing {
+    width: 70%;
+    float: left;
+    margin-right: 30px;
+    background-position-x: -23px;
+}
+#analytics {
+    width: 70%;
+    float: left;
+    margin-right: 30px;
+    background-position-x: -23px;
+}
+.strength {
+    width: 70%;
+    float: left;
+}
+.strengthDescription {
+    min-width: 100px;
+    width: 30%;
+    text-align: left;
+}
+.strengthTitle {
+    font-size: xx-large;
+    text-align: left;
+    float: left;
+    width: 30%;
+    min-width: 100px;
+}
+img {
+    max-width: 30%;
+}
+.clientLogos {
+    min-height: 700px;
+    height: 30%;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px;
+    text-align: center;
+}
+.betweenLogoAndLogos {
+    margin: 0 auto;
+    width: 50%;
+    min-height: 200px;
+    min-width: 300px;
+}
+.clientLogo {
+    width: 50%;
+    min-height: 150px;
+    min-width: 300px;
+    height: 90%;
+    padding: 0px;
+    border-style: solid;
+    border-color: #F5F2F2;
+    float: left;
+    margin: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.positionClientLogo {
+    margin: 0 auto;
+}
+.imgLogo {
+    max-width: 100%;
+}
+.clientCommentsShown {
+    background-color: #FEC500;
+    text-align: center;
+    min-height: 450px;
+}
+.clientImages {} .showComment {
+    width: 75%;
+    float: left;
+    text-align: left;
+}
+.footer {
+    background-color: black;
+    background: linear-gradient(#111015, #2E3544);
+    min-height: 400px;
+    height: 30%;
+    padding-top: 50px;
+}
+.userDetails {
+    max-height: 325px;
+    min-width: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+.inputElements {
+    min-height: 150px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+}
+.name {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.email {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.help {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-height: 50px;
+}
+.submit {
+    width: 50%;
+    min-width: 300px;
+    min-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+}
+#submitButton {
+    width: 25%;
+    margin: 0 auto;
+}
+#response {
+    font-family: sans-serif;
+    min-height: 75px;
+}
+.socialMedia {
+    min-height: 100px;
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
+.mediaLogos {
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+    margin: 0 auto;
+}
+#facebookLogo {
+    background: url('../images/fb.png') no-repeat;
+    width: 30%;
+    max-width: 45px;
+    min-height: 45px;
+    margin-right: 5px;
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top: 0;
+    float: left;
+    background-position: -5px;
+}
+#twitterLogo {
+    background: url('../images/twitter.png') no-repeat;
+    width: 30%;
+    max-width: 45px;
+    min-height: 45px;
+    margin-right: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    float: left;
+    background-position: -7px -5px;
+}
+#googlePlusLogo {
+    background: url('../images/gplus.png') no-repeat;
+    width: 30%;
+    max-width: 45px;
+    min-height: 45px;
+    margin-right: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    float: left;
+    background-position: -2px -3px;
+}

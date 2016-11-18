@@ -1,0 +1,83 @@
+.headerMenu {
+    width: 50%;
+}
+.insideSecondDiv {
+    float: left;
+    width: 45%;
+    min-width: 150px;
+    min-height: 300px;
+}
+#design {
+    background: url('../images/design.png') no-repeat;
+    max-width: 125px;
+    width: 50%;
+    margin: 0 auto;
+    min-height: 150px;
+    background-position-x: -15px;
+}
+#strategy {
+    background: url('../images/strategy.png') no-repeat;
+    min-width: 125px;
+    min-height: 150px;
+    width: 50%;
+    margin: 0 auto;
+    background-position-x: -35px;
+}
+#marketing {
+    background: url('../images/marketing.png') no-repeat;
+    min-width: 125px;
+    min-height: 150px;
+    width: 50%;
+    margin: 0 auto;
+    background-position-x: -35px;
+}
+#analytics {
+    background: url('../images/analytics.png') no-repeat;
+    min-width: 125px;
+    min-height: 150px;
+    width: 50%;
+    margin: 0 auto;
+    background-position-x: -30px;
+}
+.clientLogos {
+    min-height: 400px;
+}
+.clientLogo {
+    width: 40%;
+}
+.betweenLogoAndLogos {
+    width: 60%;
+    margin: 0 auto;
+    min-height: 200px;
+}
+.showComment {
+    width: 80%;
+    float: left;
+    text-align: left;
+}
+.userDetails {
+    min-height: 75px;
+    min-width: 200px;
+    width: 40%;
+    margin: 0 auto;
+}
+.search {
+    width: 25%;
+    margin: 0 auto;
+}
+#searchBox {
+    width: 60%;
+    margin: 10px;
+    max-width: 100px;
+}
+#searchButton {
+    background-color: #FEC500;
+    color: #F5F5F5;
+    border: none;
+    font-family: sans-serif;
+    width: 25%;
+    max-width: 50px;
+    min-height: 20px;
+    margin: 0 auto;
+    vertical-align: text-top;
+}

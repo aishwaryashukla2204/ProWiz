@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <link rel="stylesheet" type="text/css" href="css/styles_320_600.css" media="screen and (min-width: 320px) and (max-width: 600px)">
+      <link rel="stylesheet" type="text/css" href="css/styles_600_800.css" media="screen and (min-width: 600px) and (max-width: 800px)">
+      <link rel="stylesheet" type="text/css" href="css/styles_800_1280.css" media="screen and (min-width: 800px) and (max-width: 1280px)">
+      <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+      <meta http-equiv="X-UA-Compatible" content="IE=11">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="js/jquery-ui.min.js"></script>
+      <script src="js/myScript.js"></script>
+   </head>
+   <body>
+      <div class="contentDiv" id="firstDiv">
+         <div class="headerTop">
+            <div class="headerTitle">ProWiz</div>
+            <div id="headerMenuDiv">
+               <div class="hamburger" onclick="openMenu()"></div>
+               <div class="headerMenu">
+                  <span class"menuSpan"><a href="#">Home</a></span>
+                  <p class="pipeBreak">|</p>
+                  <span class"menuSpan"><a href="#">Our Strength</a></span>
+                  <p class="pipeBreak">|</p>
+                  <span class"menuSpan"><a href="#">Clients</a></span>
+                  <p class="pipeBreak">|</p>
+                  <span class"menuSpan"><a href="#">Contact</a></span> 
+               </div>
+            </div>
+         </div>
+         <div class="headerBottom">
+            <div class="headerBottomContent">
+               <div id="firstText">WE ENLIGHTEN YOUR FUTURE</div>
+               <div id="secondText">
+                  <div id="secondTextContent">We are a team of developers who are passionate about code.We help you build your products of future.</div>
+               </div>
+               <div class="downArrow"><img src="images/downarrow.png"></div>
+            </div>
+         </div>
+      </div>
+      <div class="contentDiv">
+         <div class="secondDivTitle">
+            <div class="secondDivText">Our Strength</div>
+         </div>
+         <div class="strengths">
+            <div class="betweenStrengthsAndInside">
+               <div class="insideSecondDiv">
+                  <div id="design"></div>
+                  <div class="strength">
+                     <div class="strengthTitle">Design</div>
+                     <div class="strengthDescription">Web & mobile design, Responsive design,Wireframing, UI/UX Design</div>
+                  </div>
+               </div>
+            </div>
+            <div class="betweenStrengthsAndInside">
+               <div class="insideSecondDiv">
+                  <div id="strategy"></div>
+                  <div class="strength">
+                     <div class="strengthTitle">Strategy</div>
+                     <div class="strengthDescription">Digital strategy, Brand strategy, Content strategy, Creative strategy</div>
+                  </div>
+               </div>
+            </div>
+            <div class="betweenStrengthsAndInside">
+               <div class="insideSecondDiv">
+                  <div id="marketing"></div>
+                  <div class="strength">
+                     <div class="strengthTitle">Marketing</div>
+                     <div class="strengthDescription">Social media, Digital advertising, Email marketing, SEO & SEM</div>
+                  </div>
+               </div>
+            </div>
+            <div class="betweenStrengthsAndInside">
+               <div class="insideSecondDiv">
+                  <div id="analytics"></div>
+                  <div class="strength">
+                     <div class="strengthTitle">Analytics</div>
+                     <div class="strengthDescription">Conversion optimization, Webmaster tools, A/B testing, Google Analytics</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="contentDiv">
+         <div class="clientsHeading">Our Clients</div>
+         <div class="clientLogos">
+            <div class="betweenLogoAndLogos">
+               <div class="clientLogo">
+                  <div class="positionClientLogo"><img class="imgLogo" src="images/bumsonsaddle.png"></div>
+               </div>
+               <div class="clientLogo">
+                  <div class="positionClientLogo"><img class="imgLogo" src="images/shopdirect.png"></div>
+               </div>
+               <div class="clientLogo">
+                  <div class="positionClientLogo"><img class="imgLogo" src="images/naturalmarkets.png"></div>
+               </div>
+               <div class="clientLogo">
+                  <div class="positionClientLogo"><img class="imgLogo" src="images/pam.png"></div>
+               </div>
+            </div>
+         </div>
+         <div class="clientComments">
+            <div class="clientImages">
+               <img class="clientImage" src="images/peter.png" onclick="showClientComment()">
+               <img src="images/lady.png">
+               <img src="images/guy.png">
+            </div>
+            <div class="hideClientComments">
+               <img class="quotationMark"src="images/quotation.png">
+               <div class="showComment">We have worked with ProWiz for more than a year.They are through professionals and the quality of work is top class. The team worked very well in a distributed setting like ours, and have the knack of rolling out solutions quickly. We are very happy for their association. Looking forward to seeing them grow and be successful.</div>
+            </div>
+         </div>
+      </div>
+      <div class="contentDiv containsFooter">
+      <div class="contactUs">Contact Us</div>
+      <div class="footer">
+      <div class="userDetails">
+         <div class="inputElements">
+            <input class="name" type="text" placeholder="Name">
+            <input class="email" type="text" placeholder="E-mail">
+            <input class="help" type="text" placeholder="How can we help?">
+         </div>
+         <div class="submit"><input id="submitButton" type="submit" value="Submit" onclick="validateInputFields()"></div>
+      </div>
+      <div id="response">If you don't get a response in 24 hours you can file a criminal case against us =).</div>
+      <div class="search"><input id="searchBox" type="text" placeholder="Search this site!">
+         <input id="searchButton" type="submit" value="Go">
+      </div>
+      <div class="socialMedia">
+         <div class="mediaLogos">
+            <div id="facebookLogo"></div>
+            <div id="twitterLogo"></div>
+            <div id="googlePlusLogo"></div>
+         </div>
+      </div>
+   </body>
+</html>
